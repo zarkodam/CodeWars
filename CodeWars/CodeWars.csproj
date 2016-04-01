@@ -47,6 +47,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="4kyuPascalTriangle\Task.cs" />
+    <Compile Include="4kyuPascalTriangle\Test.cs" />
     <Compile Include="4kyuStringsMix\Task.cs" />
     <Compile Include="4kyuStringsMix\Test.cs" />
     <Compile Include="4kyuSumStringsAsNumbers\Task.cs" />

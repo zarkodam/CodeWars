@@ -74,10 +74,10 @@ namespace CodeWars
             //Console.WriteLine(Task.Mixing.Mix(";ydfqSwajl0uskbVklpoBrjwn)bnsv", "Agrls1okws1dria&nvle?bbnwJpfrn"));
 
 
+            // 4kyuPascalTriangle
+            //Console.WriteLine(string.Join(", ", Task.PascalsTriangle(10)));
 
             Console.ReadLine();
-
-
         }
     }
 }
