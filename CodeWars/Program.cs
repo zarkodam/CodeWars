@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CodeWars._4kyuNextBiggerNumberWithSameDigits;
+using System;
 
 namespace CodeWars
 {
@@ -76,6 +77,16 @@ namespace CodeWars
 
             // 4kyuPascalTriangle
             //Console.WriteLine(string.Join(", ", Task.PascalsTriangle(10)));
+
+            // 7kyuVampireNumbers
+            //Task.VampireTest(10, 11);
+
+            // 6kyuFibonacciTribonacciAndFriends
+            // Console.WriteLine(string.Join(", ", Task.Xbonacci(new double[] { 10, 6, 4, 17, 7, 18, 4, 17, 11, 16, 11, 1, 3, 4, 10, 17 }, 22)));
+
+            // 4kyuNextBiggerNumberWithSameDigits
+            Task.Kata.NextBiggerNumber(9876543210);
+            //Task.Kata.NextBiggerNumber(9876543201);
 
             Console.ReadLine();
         }

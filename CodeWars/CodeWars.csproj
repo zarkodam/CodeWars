@@ -47,6 +47,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="4kyuNextBiggerNumberWithSameDigits\Task.cs" />
+    <Compile Include="4kyuNextBiggerNumberWithSameDigits\Test.cs" />
     <Compile Include="4kyuPascalTriangle\Task.cs" />
     <Compile Include="4kyuPascalTriangle\Test.cs" />
     <Compile Include="4kyuStringsMix\Task.cs" />
@@ -57,6 +59,8 @@
     <Compile Include="5kyuGreedIsGood\Test.cs" />
     <Compile Include="5kyuTicTacToe\Task.cs" />
     <Compile Include="5kyuTicTacToe\Test.cs" />
+    <Compile Include="6kyuFibonacciTribonacciAndFriends\Task.cs" />
+    <Compile Include="6kyuFibonacciTribonacciAndFriends\Test.cs" />
     <Compile Include="6kyuIqTest\Task.cs" />
     <Compile Include="6kyuIqTest\Test.cs" />
     <Compile Include="6kyuTribonacciSequence\Task.cs" />
@@ -64,6 +68,8 @@
     <Compile Include="6kyuVasyaClerk\Task - Copy.cs" />
     <Compile Include="6kyuVasyaClerk\Task.cs" />
     <Compile Include="6kyuVasyaClerk\Test.cs" />
+    <Compile Include="7kyuVampireNumbers\Task.cs" />
+    <Compile Include="7kyuVampireNumbers\Test.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

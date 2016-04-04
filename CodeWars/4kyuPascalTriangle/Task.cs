@@ -73,7 +73,6 @@ namespace CodeWars._4kyuPascalTriangle
         //            }
         //        }
         //    }
-
         //    return pt;
         //}
     }
