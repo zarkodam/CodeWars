@@ -1,5 +1,4 @@
-﻿using CodeWars._4kyuNextBiggerNumberWithSameDigits;
-using System;
+﻿using System;
 
 namespace CodeWars
 {
@@ -85,8 +84,15 @@ namespace CodeWars
             // Console.WriteLine(string.Join(", ", Task.Xbonacci(new double[] { 10, 6, 4, 17, 7, 18, 4, 17, 11, 16, 11, 1, 3, 4, 10, 17 }, 22)));
 
             // 4kyuNextBiggerNumberWithSameDigits
-            Task.Kata.NextBiggerNumber(9876543210);
+            //Task.Kata.NextBiggerNumber(9876543210);
             //Task.Kata.NextBiggerNumber(9876543201);
+
+
+            //3kyuCanYouGetTheLoop
+            //var loopDetector = new LoopDetector();
+            //LoopDetector.Node rootNode = new LoopDetector.Node();
+            //loopDetector.CreateChain(300, 30, rootNode, rootNode);
+            //Console.WriteLine(Task.GetLoopSize(rootNode));
 
             Console.ReadLine();
         }

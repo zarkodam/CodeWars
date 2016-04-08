@@ -47,6 +47,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="3kyuCanYouGetTheLoop\Test.cs" />
+    <Compile Include="3kyuCanYouGetTheLoop\Task.cs" />
     <Compile Include="4kyuNextBiggerNumberWithSameDigits\Task.cs" />
     <Compile Include="4kyuNextBiggerNumberWithSameDigits\Test.cs" />
     <Compile Include="4kyuPascalTriangle\Task.cs" />
