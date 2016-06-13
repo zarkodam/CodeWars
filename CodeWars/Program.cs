@@ -6,6 +6,12 @@ namespace CodeWars
     {
         //public static void
 
+        public static string Run(Func<string, double> fitness, int length, double p_c, double p_m, int iterations = 100)
+        {
+            Console.WriteLine(fitness);
+            return "";
+        }
+
 
         static void Main(string[] args)
         {
@@ -93,6 +99,141 @@ namespace CodeWars
             //LoopDetector.Node rootNode = new LoopDetector.Node();
             //loopDetector.CreateChain(300, 30, rootNode, rootNode);
             //Console.WriteLine(Task.GetLoopSize(rootNode));
+
+            //3kyuAlphabeticAnagrams
+            //var stopwatch = new Stopwatch();
+            //stopwatch.Start();
+
+            //Console.WriteLine(Task.ListPosition("question"));
+            //Console.WriteLine(Task.ListPosition("BOOKKEEPER"));
+
+            //stopwatch.Stop();
+            //Console.WriteLine("Time elapsed: " + stopwatch.ElapsedMilliseconds);
+
+            // 2kyuBinaryGeneticAlgorithm
+            //Func<string, double> fitness = i => 0.047619047619047616;
+            //var geneticAlgorithm = new Task.GeneticAlgorithm();
+            //Console.WriteLine(geneticAlgorithm.Run(fitness, 35, 0.6, 0.002, 100));
+
+            // 7kyuGeneticAlgorithmSeries1Generate
+            //Console.WriteLine(Task.Generate(4));
+
+            // 7kyuGeneticAlgorithmSeries2Mutation
+            //Console.WriteLine(Task.Mutate("1111", 1));
+
+            // 7kyuGeneticAlgorithmSeries3Crossover
+            //Console.WriteLine(Task.Crossover("1011011001111", "1011100100110", 4).First());
+            //Console.WriteLine(Task.Crossover("1011011001111", "1011100100110", 4).Last());
+
+            // 6kyuGeneticAlgorithmSeries5RouletteWheelSelection
+            //Task.Select(new[] { "1", "2", "3" }, new[] { 0.05, 0.05, 0.90 });
+
+            // 4kyuRomanNumeralsDecoder
+            //Console.WriteLine(Task.Solution("MCMLIV"));
+            //Console.WriteLine(Task.Solution("MMVIII"));
+
+            // BetaMyBEDMASApprovedCalculator
+            //Console.WriteLine(Task.Calculate("3+4*2"));
+            //Console.WriteLine(Task.Calculate("5 + ((1 + 2) * 4) - 3"));
+            //Console.WriteLine(bedmasApprovedCalculator.ReversePolishCalc(result));
+            //Console.WriteLine(bedmasApprovedCalculator.ReversePolishCalc("0 -4 3 + - 5 -2 * +"));
+            //Console.WriteLine(bedmasApprovedCalculator.InfixToRpnConverter("((((-4 + 3) * 5) - 3) * -61)"));
+            //Console.WriteLine(Task.Calculate("3 * (4 + (2 / 3) * 6 - 5)"));
+            //Console.WriteLine(Task.Calculate("3 + 5 * 2"));
+            //Console.WriteLine(Task.Calculate("5 - 3 * 8 / 8"));
+            //Console.WriteLine(Task.Calculate("6*(2 + 3)"));
+            //Console.WriteLine(Task.Calculate("2^5"));
+            //Console.WriteLine(Task.Calculate("3 + 5 * 2"));
+            //Console.WriteLine(Task.Calculate("5 - 3 * 8 / 8"));
+            //Console.WriteLine(Task.Calculate("6*(2 + 3)"));
+            //Console.WriteLine(Task.Calculate("3 * (4 + (2 / 3) * 6 - 5)"));
+            //Console.WriteLine(Task.Calculate("123 - ( 4 * ( 3 - 1) * 8 - 8 / ( 1 + 1 ) * (3 - 1) )"));
+            //Console.WriteLine(Task.Calculate("123 -( 4^ ( 3 - 1) * 8 - 8 /( 1 + 1 ) *(3 -1) )"));
+            //Console.WriteLine(Task.Calculate("4 + 2 * ( (226 - (5 * 3) ^ 2) ^ 2 + (10,7 - 7,4) ^ 2 - 6,89)"));
+            //Console.WriteLine(Task.Calculate("4 + 2 * ( (226 - (5 * 3) + 2) + 2 + (10 - 7) + 2 - 6)"));
+
+            // 4kyuReversePolishNotationCalculator
+            //Console.WriteLine(Task.Evaluate("5 1 2 + 4 * + 3 -"));
+
+            // StringCalculator
+            //var infixToRpnParser = new InfixToReversePolishParser();
+            //string result = infixToRpnParser.Parse("(1 +1  + - 2) + -(-(-4987) + (2+3 + ((6544))))");
+            //string result = infixToRpnParser.Parse("12* 123/-(-5 + 2)");
+            //string result = infixToRpnParser.Parse("(123,45*(678,90 / (-2,5+ 11,5)-(((80 -(19))) *33,25)) / 20)");
+            //string result = infixToRpnParser.Parse("(123,45*(678,90 / (-2,5+ 11,5)-((80 -(19)) *33,25)) / 20) - (123,45*(678,90 / (-2,5+ 11,5)-((80 -(19)) *33,25)) / 20) + (13 - 2)/ -(-11)");
+            //string result = infixToRpnParser.Parse("((((60))) + ((60)))");
+            //string result = infixToRpnParser.Parse("123,45 * (678,90 / (-2,5 + 11,5) - (80 - 19) * 33,25) / 20");
+            //Console.WriteLine(result);
+
+            //var reversePolishCalc = new ReversePolishCalculator();
+            //Console.WriteLine(reversePolishCalc.Calculate("123.45 678.90 -2.5 11.5 + / 80 19 - 33.25 * - 20 / *"));
+            //Console.WriteLine(reversePolishCalc.Calculate(result));
+
+            // 4kyuValidBraces
+            //Task.Brace.ValidBraces("({})[({})]");
+
+            // 4kyuBaseConversion
+            //Console.WriteLine(Convert.ToString(3, 4));
+            //Console.WriteLine(Task.GetBaseTen("2301", "01234"));
+            //Console.WriteLine(Task.GetBaseTen("1111", "01"));
+            //Task.ConvertFromBaseTen(223, 5);
+            //Console.WriteLine(Task.Convert("CodeWars", "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ", "01"));
+
+            //Console.WriteLine(1 * Math.Pow(Math.PI, 3) + 3 * Math.Pow(Math.PI, 2) + (Math.PI - 1) * Math.Pow(Math.PI, 0) + 1 * Math.Pow(Math.PI, -1));
+
+
+            //Task.Convert("CodeWars", "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ", "01");
+
+            //Console.WriteLine(Char.ConvertFromUtf32(7414));
+
+            //// hex to int
+            //string hexString = "8E2";
+            //int num = int.Parse(hexString, System.Globalization.NumberStyles.HexNumber);
+            //Console.WriteLine(num);
+
+            // 4kyuCountingChangeCombinations
+            //Console.WriteLine(Task.CountCombinations(1000, new[] { 1, 2 }));
+
+            // 4kyuHammingNumbers
+            //Console.WriteLine(Task.Hamming(18));
+
+            // 7kyuNumbersWhichSumOfPowersOfItsDigitsIsTheSameNumber
+            //Console.WriteLine(string.Join(", ", Task.EqSumPowDig(370, 3)));
+
+            // 6kyuRaiseMeToTheThirdPowerSearchMyDivisors
+            //var stp = new Stopwatch();
+            //stp.Start();
+            //const int numb = 2;
+            //Console.WriteLine(Task.IntCubeSumDiv(numb));
+            //Console.WriteLine("\nElapsed time: {0}ms", stp.ElapsedMilliseconds);
+
+            // 6kyuWhenSigma1FunctionHasEqualsValuesForAnntegerAndItsReversedOne
+            //Console.WriteLine(Task.EqualSigma1(917));
+
+            // 6kyuMultiplesOf3And5
+            //Console.WriteLine(Task.Solution(10));
+
+            // 6kyuLucasNumbers
+            //var fast = new Stopwatch();
+            //fast.Start();
+            //Console.WriteLine(Task.Lucasnum(40));
+            //fast.Stop();
+            //Console.WriteLine("Elapsed time: {0}ms", fast.ElapsedMilliseconds);
+
+            // 6kyuErmahgerd
+            //Console.WriteLine(Task.Ermahgerd("ohmygod javascript, haskell, python, ruby, java, c sharp, clojure, coffeescript!! I love them all!!"));
+
+            // 4kyuDecimalToAnyRationalOrIrrationalBaseConverter
+            //Console.WriteLine(Task.Convert(13, 3, Math.PI));
+
+            // 4yuPyramidSlideDown
+            //Console.WriteLine(Task.PyramidSlideDown.LongestSlideDown(new[]
+            //    {
+            //      new[]    {3},
+            //      new[]   {7, 4},
+            //      new[]  {2, 4, 6},
+            //      new[] {8, 5, 9, 3}
+            //  }));
 
             Console.ReadLine();
         }

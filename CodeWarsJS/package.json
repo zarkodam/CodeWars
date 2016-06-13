@@ -1,0 +1,10 @@
+{
+  "name": "code-wars-js",
+  "version": "0.0.0",
+  "description": "CodeWarsJS",
+  "main": "app.js",
+  "author": {
+    "name": "Žarko",
+    "email": "zdam@live.com"
+  }
+}
